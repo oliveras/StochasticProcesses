@@ -7,7 +7,7 @@
 using LinearAlgebra
 using Plots
 
-# gr()
+# gr();
 # plotly();
 pyplot()
 # pgfplotsx()
