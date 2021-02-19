@@ -22,7 +22,7 @@ pyplot()
 
 
 ## Generating the System States and the Observations
-Let $x_k$ is a vector of the position and velocity states of a object.  Here, $$x_k = \begin{bmatrix}s_{x,k}\\s_{y,k}\\v_{x,k}\\v_{y,k}\end{bmatrix}$$Here, we would like to simulate the following system
+Let \(x_k\) is a vector of the position and velocity states of a object.  Here, $$x_k = \begin{bmatrix}s_{x,k}\\s_{y,k}\\v_{x,k}\\v_{y,k}\end{bmatrix}$$Here, we would like to simulate the following system
 \begin{align*}
 x_{k + 1} &= F x_k + G u_k + w_k\\
 y_k &= H_kx_k + v_k
